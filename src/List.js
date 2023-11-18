@@ -1,9 +1,10 @@
+import { Component } from "react";
 
 
 
 function List(Props){
     const {items} = Props
-   const list1 =  items.map((e)=>{
+    const list1 =  items.map((e)=>{
         return(
              <li>
                 {e.item1}
@@ -23,5 +24,8 @@ function List(Props){
         </div>
     )
 }
+
+
+
 
 export default List;

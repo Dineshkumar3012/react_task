@@ -1,7 +1,8 @@
 
 import Table1 from './Table1';
+import Table2 from './Table2';
 import List from './List';
-
+import List1 from  './List1'
 
 function Show(){
     const data = [
@@ -62,8 +63,10 @@ function Show(){
         <h1>Table Using Props</h1>
 
         <Table1 data1 = {data} />
+        <Table2 data1 = {data} />
 
-        <List items = {types}/>
+        {/* <List items = {types}/> */}
+        <List1 items = {types}/>
       </div>
     )
   }

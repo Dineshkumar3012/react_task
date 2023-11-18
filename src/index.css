@@ -44,3 +44,12 @@ td{
   /* gap: 100px; */
   margin-left: 20px;
 }
+
+.www{
+  display: inline-block;
+}
+button{
+  padding: 10px;
+  color:#000;
+  margin: 10px;
+}
